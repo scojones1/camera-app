@@ -1,3 +1,6 @@
+@import "compass/css3";
+
+
 html, body{
   margin: 0;
   padding: 0;
@@ -41,4 +44,18 @@ html, body{
     top: 20px;
     right: 20px;
     z-index: 2;
+}
+
+
+
+#container {
+  position: fixed;
+  z-index: 100
+}
+
+.animated {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
 }
